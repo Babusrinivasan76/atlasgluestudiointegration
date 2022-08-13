@@ -40,13 +40,13 @@ There are multiple ways for creating a MongoDB Atlas cluster in AWS.
 Setup the VPC, Subnet, NAT Gateway and VPC Endpoints
 
 Login to the AWS console and search for VPC 
-
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/04.VPC%20Search.png)
 Click on the VPC and click on the "Create VPC" on the top right
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/05.%20create%20VPC%20.png)
 Select the "VPC and more" and choose the parameters as shown.
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/01.VPC%20Creation.png)
 
 Click "Create".
-Select the "VPC and more" and choose the parameters as shown.
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/02.VPC%20Creationpng.png)
 
 
