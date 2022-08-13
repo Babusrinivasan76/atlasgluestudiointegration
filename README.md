@@ -24,18 +24,28 @@ AWS Glue Studio is a new graphical interface that makes it easy to create, run, 
 
 ## Integration Features
 
-   With AWS Glue Studio, we can now create scripts for integrations with all the data source. In this module, we utilized the MongoDB Atlas's Spark connectors to connect to the MongoDB Atlas.
-   As of now there are no director connectors are available in AWS Glue Studio to connect to MongoDB Atlas. 
+With AWS Glue Studio, we can now create scripts for integrations with all the data source. In this module, we utilized the MongoDB Atlas's Spark connectors to connect to the MongoDB Atlas.
+As of now there are no director connectors are available in AWS Glue Studio to connect to MongoDB Atlas. 
 
 ## Steps for Integration
 
-### Creation of MongoDB Atlas
+### 1.Creation of MongoDB Atlas
 First and foremost we need to create a MongoDB Atlas cluster (free tier is also available) for setting the MDB Atlas as either source or sink for the ETL process.
 
-	There are multiple ways for creating a MongoDB Atlas cluster in AWS.
+There are multiple ways for creating a MongoDB Atlas cluster in AWS.
   1. [Cloudformation Template](https://aws.amazon.com/quickstart/architecture/mongodb-atlas/)
   2. [MongoDB Atlas console](https://www.mongodb.com/docs/atlas/getting-started/)
-  
+
+### 2.Setup of AWS Network components
+Setup the VPC, Subnet, NAT Gateway and VPC Endpoints
+
+Login to the AWS console and search for VPC 
+
+Click on the VPC and click on the "Create VPC" on the top right
+
+Select the "VPC and more" and choose the parameters as shown.
+
+Click "Create".
 
 ## Summary
 
