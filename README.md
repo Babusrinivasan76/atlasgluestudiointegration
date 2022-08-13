@@ -42,12 +42,14 @@ Setup the VPC, Subnet, NAT Gateway and VPC Endpoints
 Login to the AWS console and search for VPC 
 
 Click on the VPC and click on the "Create VPC" on the top right
+Select the "VPC and more" and choose the parameters as shown.
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/01.VPC%20Creation.png)
 
+Click "Create".
 Select the "VPC and more" and choose the parameters as shown.
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/02.VPC%20Creationpng.png)
 
-Click "Create".
+
 
 ### 3.Setup of Security Group
 
