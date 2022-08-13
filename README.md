@@ -49,6 +49,15 @@ Select the "VPC and more" and choose the parameters as shown.
 
 Click "Create".
 
+### 3.Setup of Security Group
+
+Click on  the "Security groups" option on the left side menu.
+
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/03%20Security%20Group.png)
+
+Ensure the security group routes are enabled for the accessing the database ports
+
+
 ## Summary
 
 
