@@ -89,10 +89,9 @@ Reference: [Link](https://www.mongodb.com/docs/atlas/security-cluster-private-en
 ### 5.Upload the sample JSON file to S3 bucket
 
 Upload the sample [airport.json](https://github.com/Babusrinivasan76/atlasgluestudiointegration/tree/main/images/VPC%20Creation#:~:text=1%20minute%20ago-,airports.json,-Add%20files%20via) file to the S3 bucket
-X![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/13.S3%20upload.png)
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/13.S3%20upload.png)
 
-
-
+### 6.Setup the AWS Glue Catalog
 
 
 ## Summary
