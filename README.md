@@ -92,6 +92,27 @@ Upload the sample [airport.json](https://github.com/Babusrinivasan76/atlasgluest
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/13.S3%20upload.png)
 
 ### 6.Setup the AWS Glue Catalog
+Create the connection to the S3 bucket
+
+Create a crawler that runs on demand to pull the data from S3 to Glue Database
+
+
+### 7.Create a Glue Studio Job and run
+Click on the Job from the menu and select "Pyspark Scripts" 
+
+Click "Create Job"
+
+Copy the Code from the link and paste 
+
+Configure the parameters
+
+Run the Job
+
+
+### 8.Validate the Data in MongoDB Atlas
+
+Validate the S3 data are created as a document in MongoDB Atlas
+
 
 
 ## Summary
