@@ -32,7 +32,16 @@ As of now there are no director connectors are available in AWS Glue Studio to c
 ### 1.Creation of MongoDB Atlas
 First and foremost we need to create a MongoDB Atlas cluster (free tier is also available) for setting the MDB Atlas as either source or sink for the ETL process.
 
-There are multiple ways for creating a MongoDB Atlas cluster in AWS.
+Create the MongoDB cluster
+[](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/06.MongoDB%20Atlas%20DB%20Creation.png)
+
+Click "Create Database"
+[](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/07.%20MongoDB%20Database%20creation.png)
+
+Click "Create Cluster"
+[](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/08.Create%20cluster.png)
+
+Other Reference: 
   1. [Cloudformation Template](https://aws.amazon.com/quickstart/architecture/mongodb-atlas/)
   2. [MongoDB Atlas console](https://www.mongodb.com/docs/atlas/getting-started/)
 
@@ -41,7 +50,7 @@ Setup the VPC, Subnet, NAT Gateway and VPC Endpoints
 
 Login to the AWS console and search for VPC 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/04.VPC%20Search.png)
-Click on the VPC and click on the "Create VPC" on the top right
+Click on the VPC and click on the "Create VPC" 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/05.%20create%20VPC%20.png)
 Select the "VPC and more" and choose the parameters as shown.
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/01.VPC%20Creation.png)
@@ -59,6 +68,12 @@ Click on  the "Security groups" option on the left side menu.
 
 Ensure the security group routes are enabled for the accessing the database ports
 
+
+### 4.setup the Private link
+
+Setup the private link services to secure the connection between MongoDB Atlas and AWS VPC
+
+Reference: [Link](https://www.mongodb.com/docs/atlas/security-cluster-private-endpoint/)
 
 ## Summary
 
