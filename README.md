@@ -134,23 +134,41 @@ Upload the sample [airport.json](https://github.com/Babusrinivasan76/atlasgluest
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/26.run%20crawler.png)
 
 ### 7.Create a Glue Studio Job and run
-Click on the Job from the menu and select "Pyspark Scripts"
 
-Click "Create Job"
+ Click on the Job from the menu and select "Pyspark Scripts"
+
+ Click "Create Job"
+
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/28.create%20a%20job.png)
+
 
 Copy the Code from the link and paste 
 
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/29.copy%20the%20code.png)
+
+
 Configure the parameters
 
-Run the Job
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/30.update%20the%20job%20details.png)
+
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/31.update%20the%20job%20details.png)
+
+Save the job and click "Run"
+
+Ensure the job ran successfully. You can refer the logs for the troubleshooting
 
 
 ### 8.Validate the Data in MongoDB Atlas
 
 Validate the S3 data are created as a document in MongoDB Atlas
 
-![](
+![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/32.validat%20the%20MongoDB%20data.png)
+
 
 ## Summary
 
+Hope this technical guide would have helped you in migrating the data into the MongoDB Atlas cluster through the AWS Glue services.
 
+This solution can be used for any of the source data to be migrated to MongoDB Atlas.
+
+For any assistance please reach out to partner@mongodb.com
