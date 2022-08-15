@@ -93,7 +93,7 @@ Upload the sample [airport.json](https://github.com/Babusrinivasan76/atlasgluest
 
 ### 6.Setup the AWS Glue Catalog
 
-Create the connection to the S3 bucket
+#### Create the connection to the S3 bucket
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/14.AWS%20Glue%20Connection.png)
 
@@ -102,18 +102,16 @@ Create the connection to the S3 bucket
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/16.AWS%20Glue%20Connection.png)
 
 
-Validate the connection by clicking the "Test Connection"
+#### Validate the connection by clicking the "Test Connection"
 
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/17.%20Test%20AWS%20Glue%20Connection.png)
 
 
-Create a crawler that runs on demand to pull the data from S3 to Glue Database
+#### Create a crawler that runs on demand to pull the data from S3 to Glue Database
 
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/18.%20Create%20Crawler.png)
-
-
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/19.%20Create%20Crawler.png)
 
@@ -129,9 +127,9 @@ Create a crawler that runs on demand to pull the data from S3 to Glue Database
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/25.create%20crawler.png)
 
-![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/26.run%20crawler.png)
 
-Validate the database and table after successful completion of the crawler 
+
+#### Run the crawler and validate the database and table after successful completion of the crawler 
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/26.run%20crawler.png)
 
