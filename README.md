@@ -142,7 +142,7 @@ Upload the sample [airport.json](https://github.com/Babusrinivasan76/atlasgluest
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/28.create%20a%20job.png)
 
 
-Copy the Code from the link and paste 
+Copy the Code from the [link](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/pyspark_s3tomdb.py) and paste 
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/29.copy%20the%20code.png)
 
