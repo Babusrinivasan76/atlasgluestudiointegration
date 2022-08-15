@@ -92,18 +92,28 @@ Upload the sample [airport.json](https://github.com/Babusrinivasan76/atlasgluest
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/13.S3%20upload.png)
 
 ### 6.Setup the AWS Glue Catalog
+
 Create the connection to the S3 bucket
+
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/14.AWS%20Glue%20Connection.png)
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/15.AWS%20Glue%20Connection.png)
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/16.AWS%20Glue%20Connection.png)
 
+
+Validate the connection by clicking the "Test Connection"
+
+
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/17.%20Test%20AWS%20Glue%20Connection.png)
+
 
 Create a crawler that runs on demand to pull the data from S3 to Glue Database
 
+
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/18.%20Create%20Crawler.png)
+
+
 
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/19.%20Create%20Crawler.png)
 
