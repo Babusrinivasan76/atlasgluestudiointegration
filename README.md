@@ -53,18 +53,9 @@ Click on  the "Security groups" option on the left side menu.
 
 Ensure the security group routes are enabled for the accessing the database ports
 
-### 3.Creation of MongoDB Atlas
-First and foremost we need to create a MongoDB Atlas cluster (free tier is also available) for setting the MDB Atlas as either source or sink for the ETL process.
+### 3.Set up the MongoDB Atlas cluster
 
-Create the MongoDB cluster
-![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/06.MongoDB%20Atlas%20DB%20Creation.png)
-
-Click "Create Database"
-![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/07.%20MongoDB%20Database%20creation.png)
-
-Click "Create Cluster"
-![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/08.Create%20cluster.png)
-
+Please follow the [link](https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster) to setup a free cluster in MongoDB Atlas
 
 Configure the database for [network security](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/) and [access](https://www.mongodb.com/docs/atlas/tutorial/create-mongodb-user-for-cluster/).
 
