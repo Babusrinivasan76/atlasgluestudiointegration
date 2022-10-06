@@ -32,7 +32,7 @@ job.init(args['JOB_NAME'], args)
 
 ds = glueContext.create_dynamic_frame.from_catalog(database="partner-demo-mdb", table_name="airports_json",transformation_ctx= "datasource0")
 
-#### MongoDB Atlas Connection ###
+#### MongoDB Atlas Connection ### ##UPDATE the MongoDB Atlas connection##
 
 mongo_uri = "mongodb://xxxxxx.xxxascf.mongodb.net:27017,xxxxxxhard-00-01.xxxx.mongodb.net:27017,axxxxxpub-s-02.frzascf.mongodb.net:27017/?ssl=true&replicaSet=atlas-br364o-shard-0&authSource=admin&retryWrites=true&w=majority"
 
@@ -42,10 +42,10 @@ logger.info("Connecting...")
 
 write_mongo_options = {
     "uri": mongo_uri,
-    "database": "S3Load",
-    "collection": "mdbtest",
-    "username": "s3load",
-    "password": "xxxxxx"
+    "database": "xxxxx",  ##UPDATE MongoDB Atlas Database name ##
+    "collection": "xxxx",  ##UPDATE Collection name ##
+    "username": "xxx",  ##UPDATE username ##
+    "password": "xxxxxx" ##UPDATE the password ##
 }
 
 # Write DynamicFrame to MongoDB and DocumentDB
