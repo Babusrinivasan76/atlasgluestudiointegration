@@ -31,6 +31,9 @@ As of now there are no director connectors are available in AWS Glue Studio to c
 
 
 ### 1.Setup of AWS Network components
+
+Reference: [Link](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands-example.html)
+
 Setup the VPC, Subnet, NAT Gateway and VPC Endpoints
 
 Login to the AWS console and search for VPC 
@@ -60,7 +63,9 @@ Please follow the [link](https://www.mongodb.com/docs/atlas/tutorial/deploy-free
 Configure the database for [network security](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/) and [access](https://www.mongodb.com/docs/atlas/tutorial/create-mongodb-user-for-cluster/).
 
 
-### 4.setup the Private link
+### 4.Setup the Private link
+
+Reference: [Link](https://www.mongodb.com/docs/atlas/security-cluster-private-endpoint/)
 
 Setup the private link services to secure the connection between MongoDB Atlas and AWS VPC
 
@@ -73,7 +78,7 @@ Select the "Add Private Endpoint" and follow the instruction to create the endpo
 
 Ensure the Private Endpoint is created successfully, before moving to the next step.
 
-Reference: [Link](https://www.mongodb.com/docs/atlas/security-cluster-private-endpoint/)
+
 
 
 ### 5.Upload the sample JSON file to S3 bucket
