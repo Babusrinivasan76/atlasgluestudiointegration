@@ -65,6 +65,9 @@ Click "Create Database"
 Click "Create Cluster"
 ![](https://github.com/Babusrinivasan76/atlasgluestudiointegration/blob/main/images/VPC%20Creation/08.Create%20cluster.png)
 
+
+Configure the database for [network security](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/) and [access](https://www.mongodb.com/docs/atlas/tutorial/create-mongodb-user-for-cluster/).
+
 Other Reference: 
   1. [Cloudformation Template](https://aws.amazon.com/quickstart/architecture/mongodb-atlas/)
   2. [MongoDB Atlas console](https://www.mongodb.com/docs/atlas/getting-started/)
